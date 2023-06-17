@@ -1,8 +1,8 @@
 import gifAnimation.*;
 import processing.pdf.*;
 
-final String TITLE = "Game boy";
-final String SUBTITLE = "nintendo";
+final String TITLE = "FLxRE";
+final String SUBTITLE = "Luma 3DS";
 int TEXTSIZE = 0;
 final int ANIMATIONLENGTH = 4;
 final int FRAMERATE = 60;
@@ -12,12 +12,7 @@ final boolean SAVEFRAMES = false; //Save the frames to create a non-gif video wi
 PFont TitleFont;
 PFont SubTitleFont;
 
-final color BLUE = color(56, 144, 240);
 final color GREEN = color(64, 204, 63);
-final color PINK = color(248, 164, 248);
-final color RED = color(240, 84, 64);
-final color YELLOW = color(248, 216, 88);
-final color FINALBLUE = color(0, 30, 254);
 
 ArrayList<Integer> palette; //The palette of colors to change through
 PGraphics textLayer;
